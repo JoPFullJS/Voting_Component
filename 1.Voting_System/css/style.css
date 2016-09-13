@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    height: 50px;
+    width: 400px;
+    margin: auto;
+}
+.box_plus, .box_moins {
+    height: 50px;
+    width: 80px;
+}
+.box_plus {
+    float: left;
+
+}
+.box_moins {
+    float: right;
+}
+#rate_plus {
+    background-color: #3C8289;
+    box-shadow: 0px 0px 0px px #226E75 inset;
+}
+#rate_plus span:nth-child(1){
+  line-height: 4em;
+}
+#rate_plus span:nth-child(2){
+  position:relative;
+  top:-0.5em;
+}
+#rate_moins {
+    background-color: #E16B62;
+    box-shadow: 0px 0px 0px 2px #C14137 inset;
+}
+
+#rate_plus, #rate_moins {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.box_bar {
+    height: 100%;
+    width: 240px;
+    float: left;
+    background-image: url('../img/red_noise.jpg');
+    background-size:cover;
+    box-shadow: 0px 0px 0px 5px #C14137 inset;
+  }
+#progress {
+    height: 100%;
+    width: 80%;
+    background-image: url('../img/back_blue.jpg');
+    background-size:cover;
+    box-shadow: 0px 0px 0px 5px #226E75 inset;
+
+}
+#prog_two {}
